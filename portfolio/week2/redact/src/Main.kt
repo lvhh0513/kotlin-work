@@ -11,7 +11,6 @@ fun usage() {
     println("(text to be redacted, input filename, output filename)")
     exitProcess(1)
 }
-
 fun main(args: Array<String>) {
     if (args.size != 3) {
         usage()
